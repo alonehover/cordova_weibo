@@ -14,11 +14,5 @@ module.exports = {
 			args = {};
 		}
 		cordova.exec(successCallback, errorCallback, "WeiboSDK", "shareToWeibo", [args]);
-	},
-	shareImageToWeibo:function(successCallback, errorCallback,args){
-		if(args == undefined){
-			args = {};
-		}
-		cordova.exec(successCallback, errorCallback, "WeiboSDK", "shareImageToWeibo", [args]);
 	}
 };
